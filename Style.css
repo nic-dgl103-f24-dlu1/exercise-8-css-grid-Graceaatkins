@@ -35,6 +35,7 @@ nav {
     text-decoration: none; 
     color: black; 
     font-weight: bold; 
+    font-size: 1.5rem;
 }
 
 main{
@@ -61,12 +62,24 @@ padding: 2rem;
     font-size: 1.4rem;
 }
 
-aside{grid-area: aside;
+aside{
+    grid-area: aside;
 background-color:lemonchiffon;
 padding: 1.5rem;
 display: flex;
 flex-direction: column;
+align-items: center;
 gap: 2rem;
+height: auto;
+}
+
+.Advertisement {
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center; 
+    gap: 2rem; 
+    text-align: center; 
 }
 
 .aside-image{
@@ -75,11 +88,55 @@ gap: 2rem;
     margin: 10px;
 }
 
+aside h2{
+    text-transform: uppercase;
+    font-size: 1.4rem;
+}
+
+.button{
+    border: 0.2rem solid pink;
+    background-color:  pink;
+    text-decoration: solid;
+    color: white;
+    font-weight: bold;
+    border-radius: 0.5rem;
+}
+
 footer{
     grid-area: footer;
-    background-color: lavender;
+    background-color:rgb(233, 202, 232);
     padding: 2rem;
     display: flex;
     flex-direction: column;
     gap: 2rem;
+    text-align: center;
+}
+
+.contact a{
+    text-decoration: none;
+color: black;}
+
+.contact, .social {
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+}
+
+.contact h2, .social h2 {
+    text-transform: uppercase; 
+    margin-bottom: 1rem; /
+}
+
+.social-links {
+    list-style-type: none; 
+    padding: 0; 
+}
+
+.social-links li {
+    margin: 0.5rem 0; 
+}
+
+.social-links a {
+    font-weight: bold; 
+    color: black;
 }
