@@ -45,6 +45,22 @@ main{
 padding: 2rem;
 }
 
+.section-links {
+    list-style-type: none; 
+    padding: 0; 
+    margin-bottom: 2rem; 
+    display: flex; 
+    justify-content: center; 
+    gap: 1.5rem; 
+}
+
+.section-links a{
+    color:pink;
+    font-weight: bold; 
+    text-decoration: none;
+    font-size: 1.4rem;
+}
+
 aside{grid-area: aside;
 background-color:lemonchiffon;
 padding: 1.5rem;
