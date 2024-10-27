@@ -1,0 +1,8 @@
+Body{
+    display: grid;
+    grid-template-columns: repeat (3, 1fr);
+    grid-template-areas:"header header header" 
+    "aside main main"
+    "footer footer footer";
+}
+
